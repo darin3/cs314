@@ -12,7 +12,7 @@ Automate the server deployment process for the CS314 trip project. Works with DE
 
 *If an error occurs, run "./bin/run.sh -d" normally to check for errors, and/or make sure port forwarding is working if necessary*.
 
-## Passwordless SSH Login (optional, but convenient)
+## Passwordless SSH Login (optional, but convienent and recommended)
 * Follow the steps at this [link from linuxize](https://linuxize.com/post/how-to-setup-passwordless-ssh-login/), or there are many other resources.
 * If this isn't set up, you will have to **enter your remote machine password twice** (rsync + ssh commands).
 
