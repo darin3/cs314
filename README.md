@@ -8,6 +8,7 @@ Automate the server deployment process for the CS314 trip project. Works with DE
 ## Running
 1. From the t## directory, run "./bin/deploy.sh".
 1. Follow the prompts. Provide eID (used for ssh/rsync) and server (DEV or SPRINT#).
+1. "./bin/run.sh -d" will run automatically if the target directory does not contain a server-*.jar file, otherwise you can optionally skip this command to turn in the current jar in target. 
 1. If an error occurs, run "./bin/run.sh -d" normally to check for errors, and make sure port forwarding is working.
 
 ## Passwordless SSH Login (optional, but convenient)
