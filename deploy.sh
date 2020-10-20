@@ -3,7 +3,9 @@
 # Email: darinh@cs.colostate.edu
 # GitHub Repo: https://github.com/darin3/cs314-deploy
 
+# Make this script executable with "chmod +x deploy.sh"
 # Password-less SSH login (optional): https://linuxize.com/post/how-to-setup-passwordless-ssh-login/
+
 # ** WARNING: This program will remove any "server-*.jar" files from your home directory on the remote server (for clean up). **
 
 : '
