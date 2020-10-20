@@ -3,7 +3,7 @@ Automate the server deployment process for the CS314 trip project. Works with DE
 
 ## Script Setup
 * Copy **deploy.sh** to the project **t##/bin/** directory.
-* If it is not exectuable, add permissions with **chmod +x deploy.sh**.
+* If it is not executable, add permissions with **chmod +x deploy.sh**.
 
 ## Running
 1. From the t## directory, run "./bin/deploy.sh".
