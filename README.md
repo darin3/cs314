@@ -1,5 +1,5 @@
-# Deploy Script for CS314
-Automate the server deployment process
+# Auto-Deploy Script for CS314
+Automate the server deployment process for the CS314 trip project. Works with DEV and SPRINT[1-5] options.
 
 ## Script Setup
 * Copy deploy.sh to the project **t##/bin/** directory.
@@ -18,3 +18,4 @@ Automate the server deployment process
 * This script must be run in a **BASH shell**.
 * By default, the script **removes all server-*.jar files from the remote server home directory** for clean up.
 * This script has only been tested on Fedora and Ubuntu.
+* If you are deploying a sprint server, make sure to enter the correct sprint number (eg. SPRINT3) or it won't show up.
