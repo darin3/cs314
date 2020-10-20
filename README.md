@@ -14,7 +14,7 @@ Automate the server deployment process for the CS314 trip project. Works with DE
 
 ## Passwordless SSH Login (optional, but convenient)
 * Follow the steps at this [link from linuxize](https://linuxize.com/post/how-to-setup-passwordless-ssh-login/), or there are many other resources.
-* If this isn't set up, you will have to **enter your remote machine password twice** (for rsync then ssh commands).
+* If this isn't set up, you will have to **enter your remote machine password twice** (rsync + ssh commands).
 
 ## Warnings
 * This script must be run in a **BASH shell**.
