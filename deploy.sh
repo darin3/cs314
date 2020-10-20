@@ -4,6 +4,8 @@
 # Email: darinh@cs.colostate.edu
 # GitHub Repo: https://github.com/darin3/cs314-deploy
 
+# Passwordless SSH login (optional): https://linuxize.com/post/how-to-setup-passwordless-ssh-login/
+
 : '
 MIT License
 
