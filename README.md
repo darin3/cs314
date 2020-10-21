@@ -17,7 +17,7 @@ Automate the server deployment process for the CS314 trip project. Works with DE
 * If this isn't set up, you will have to **enter your remote machine password twice** (rsync + ssh commands).
 
 ## Warnings
-* This script must be run in a **BASH shell**.
-* By default, the script **removes all server-*.jar files from the remote server home directory** for clean up.
+* This script must be run in a **Bash shell**.
+* By default, the script **may attempt to check in multiple jars if there are already server-*.jar files in the remote /tmp/ directory**. This can be fixed by re-running deploy.sh since it cleans up the jars in /tmp/ after running for clean up.
 * This script has only been tested on Fedora and Ubuntu.
 * If you are deploying a sprint server, make sure to enter the correct sprint number (eg. SPRINT3) or it won't show up.
